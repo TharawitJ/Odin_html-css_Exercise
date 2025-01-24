@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    /* Add */
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 4px;
+  }
+  
+  .container div {
+    padding: 15px;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header {
+    background-color: #393f4d;
+    /* Add */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* Add */
+  .header .logo {
+    text-align: left;
+  }
+  
+  .menu ul,
+  .menu li {
+    font-size: 16px;
+    /* Add */
+    list-style-type: none;
+  }
+
+/* Add */
+  .menu ul {    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
+  
+  .sidebar {
+    background-color: #C50208;
+    /* Add */
+    gap: 50px;
+    display: grid;
+    justify-content: center;
+    grid-column: 1/1;
+    grid-row:2/5 ;
+  }
+  
+  .sidebar .photo {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 10px;
+  }
+  
+  
+  .sidebar .side-content {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .nav {
+    background-color: #C50208;
+
+
+  }
+  
+  .nav ul li {
+    font-size: 16px;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+
+  .nav ul {
+    /* Add */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    
+  }
+  
+  .article {
+    background-color: #bccbde;
+    /* Add */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px ,1fr));
+    gap: 15px;
+    grid-row:3/5 ;
+  }
+  
+  .article p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+  }
+  
+  .article .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    /* Add */
+    height: 200px;
+  }
+  
+  .card p {
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .card .title {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #393f4d;
+  }
+  
+  .footer p {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .header, .footer {
+    display: grid;
+    grid-column: 1 / span 2; 
+  }
