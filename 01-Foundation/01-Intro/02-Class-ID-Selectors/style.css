@@ -1,0 +1,19 @@
+.ForOdd {
+    color: black;
+    background-color: pink;
+    font-family:Verdana, DejaVu Sans, sans-serif ;
+}
+.FontSize {
+    font-size: 24px;
+}
+
+#ID-one {
+    font-size: 36px;
+    color: Blue;
+}
+
+#ID-two {
+    color: black;
+    background-color: lightgreen;
+    font-weight: bold;
+}

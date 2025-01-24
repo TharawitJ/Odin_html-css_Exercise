@@ -1,0 +1,32 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .one {
+    background: pink;
+    border: 3px solid blue;
+    /* CHANGE ME */
+    padding: 32px;
+    margin: 12px;
+  }
+  
+  .two {
+    background: lightblue;
+    border: 3px solid purple;
+    /* CHANGE ME */
+    margin-bottom: 48px;
+  }
+  
+  .three {
+    background: peachpuff;
+    border: 3px solid brown;
+    width: 200px;
+    /* CHANGE ME */
+    padding: 32px;
+    margin-left: auto;
+/* 
+margin-left: auto; increases(grow) the left margin's size to push the element as far right as possible.
+margin-right: auto; increases, but this doesn't visibly affect the position of the element unless there's unused space. 
+*/
+  }

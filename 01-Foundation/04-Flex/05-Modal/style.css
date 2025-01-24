@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  /* I'll give you this one for free lol */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: rgb(255, 255, 255);
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: rgb(211, 209, 209);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Add */
+  margin: 16px;
+  flex-basis: 40%;
+}
+
+.close-button {
+  background: #d4d2d2;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d8d8d8;
+  padding: 0;
+  /* Add */
+  margin-left: auto;
+  flex-basis: 25%;
+
+  
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+button.cancel {
+  background: white;
+  border: 1px solid #918d8d;
+  color: royalblue;
+}
+
+/* Add */
+
+.Container1{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+} 
+
+.text{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 10px;
+  justify-content: center;
+}
+.TextContainer{
+  display: flex;
+  flex-direction: column;
+}
+.ButtonContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin: 15px 75px;
+}
+
+.header{
+  margin-top: 20px;
+}
